@@ -19,7 +19,7 @@ git submodule foreach --recursive git pull
 #### Run Vagrant and ssh into the VM
 
 ```
-vagrant up && vagrant ssh
+vagrant up --no-provision && vagrant ssh
 ```
 
 Grab a cup of your favorite beverage, this is going to take some time...
