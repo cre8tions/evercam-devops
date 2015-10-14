@@ -1,22 +1,22 @@
 [![Stories in Ready](https://badge.waffle.io/evercam/evercam-devops.png?label=ready&title=Ready)](https://waffle.io/evercam/evercam-devops)
 ## Evercam Development Environment Setup
 
-#### Install Host dependencies
+##### Install Host dependencies
 
 * [Virtualbox](https://www.virtualbox.org/wiki/Downloads)
 * [Vagrant](http://www.vagrantup.com/downloads.html)
 * [Git](http://git-scm.com/downloads)
 
-#### Clone this repository and it's submodules
+##### Clone this repository and it's submodules
 
 ```
-git clone https://github.com/evercam/evercam-devops.git && cd evercam-devops && git checkout vagrant-box
+git clone https://github.com/evercam/evercam-devops.git && cd evercam-devops && git checkout windows
 git pull && git submodule init && git submodule update && git submodule status
 git submodule foreach --recursive git checkout master
 git submodule foreach --recursive git pull
 ```
 
-#### Run Vagrant and ssh into the VM
+##### Run Vagrant and ssh into the VM
 
 ```
 vagrant up --no-provision && vagrant ssh
@@ -24,7 +24,7 @@ vagrant up --no-provision && vagrant ssh
 
 Grab a cup of your favorite beverage, this is going to take some time...
 
-#### Test that everything is working
+##### Test that everything is working
 
 ```
 cd /vagrant/evercam-api
@@ -48,7 +48,7 @@ mix deps.get && mix deps.compile && mix compile
 mix test
 ```
 
-#### You're done!
+##### You're done!
 
 Now start the API server:
 
