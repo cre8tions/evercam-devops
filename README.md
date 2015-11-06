@@ -24,6 +24,13 @@ vagrant up --no-provision && vagrant ssh
 
 Grab a cup of your favorite beverage, this is going to take some time...
 
+##### Copy the example `.env` file to all directories
+
+```
+cp /vagrant/.env /vagrant/evercam-api/ && cp /vagrant/.env /vagrant/evercam-dashboard/
+cp /vagrant/.env /vagrant/evercam-models/ && cp /vagrant/.env /vagrant/evercam-media/
+```
+
 ##### Test that everything is working
 
 ```
