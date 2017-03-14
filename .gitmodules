@@ -1,9 +1,6 @@
 [submodule "evercam_dashboard"]
 	path = evercam-dashboard
 	url = https://github.com/evercam/evercam_dashboard.git
-[submodule "evercam_models"]
-	path = evercam-models
-	url = https://github.com/evercam/evercam_models.git
 [submodule "evercam-ruby"]
 	path = evercam-ruby
 	url = https://github.com/evercam/evercam-ruby.git
