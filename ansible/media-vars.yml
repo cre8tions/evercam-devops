@@ -1,6 +1,6 @@
 build_dir: /tmp/build-media
 remote_media_dir: /opt/evercam_media
-local_media_dir: ~/evercam/evercam-media
+local_media_dir: ~/evercam-devops/evercam-media
 version_to_deploy: "{{VERSION|default('master')}}"
 
 storage_dir: /storage
