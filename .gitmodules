@@ -10,3 +10,6 @@
 [submodule "evercam-media"]
 	path = evercam-media
 	url = https://github.com/evercam/evercam-media
+[submodule "evercam_admin"]
+	path = evercam-admin
+	url = https://github.com/evercam/evercam_admin.git
